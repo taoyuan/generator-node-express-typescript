@@ -1,8 +1,8 @@
 # TypeScript NodeJS Generator
-[![Build Status](https://secure.travis-ci.org/ospatil/generator-node-express-typescript.png?branch=master)](https://travis-ci.org/ospatil/generator-node-express-typescript)
-[![npm version](https://badge.fury.io/js/generator-node-express-typescript.svg)](http://badge.fury.io/js/generator-node-express-typescript)
+[![Build Status](https://secure.travis-ci.org/taoyuan/generator-nts.png?branch=master)](https://travis-ci.org/taoyuan/generator-nts)
+[![npm version](https://badge.fury.io/js/generator-nts.svg)](http://badge.fury.io/js/generator-nts)
 
-This is a fork of [this generator](https://github.com/ospatil/generator-node-express-typescript) but I added express to it. 
+This is a fork of [this generator](https://github.com/taoyuan/generator-nts) but I added express to it. 
 
 I'm a minimal [Yeoman](http://yeoman.io) generator for creating NodeJS express servers using TypeScript. I let you quickly setup a project with latest available tools and best practices.
 
@@ -20,10 +20,10 @@ You want to know if you can change any of these? Of course, why not? It is your 
 
 ## Usage
 
-Install `generator-node-express-typescript` globally. If you are planning to use _gulp_, install `gulp-cli` globally.
+Install `generator-nts` globally. If you are planning to use _gulp_, install `gulp-cli` globally.
 
 ```sh
-$npm install -g generator-node-express-typescript
+$npm install -g generator-nts
 ```
 
 Create a new directory and `cd` into it.
@@ -36,10 +36,8 @@ $mkdir my-new-project && cd $_
 Run the generator.
 
 ```sh
-$yo node-express-typescript
+$yo nts
 ```
-
-You can choose to use _gulp_ as your build system using command - `$yo node-express-typescript --gulp`
 
 Run `npm run` for information on available tasks.
 
@@ -64,23 +62,6 @@ available via `npm run-script`:
     npm run build -- --watch
   watch:test
     npm run test -- --watch
-```
-
-If you choose to use _gulp_, you can find the available tasks using command `gulp help`.
-
-```sh
-$gulp help
-
-Usage
-  gulp [TASK] [OPTIONS...]
-
-Available tasks
-  build  Compiles all TypeScript source files [lint]
-  clean  Cleans the generated js files from lib directory
-  help   Display this help text.
-  lint   Lints all TypeScript source files
-  test   Runs the mocha test specs [build]
-  watch  Watches ts source files and runs build on change
 ```
 
 ## Highlights of the latest release
