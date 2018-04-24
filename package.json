@@ -4,7 +4,7 @@
   "description": "A minimal Yeoman Generator for creating NodeJS modules using TypeScript and including a minimal express server.",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "opitzconsulting/generator-node-express-typescript",
+  "repository": "taoyuan/generator-nts",
   "author": {
     "name": "Pascal Brokmeier",
     "email": "pascal.brokmeier@gmail.com",
@@ -26,7 +26,6 @@
   "keywords": [
     "yeoman-generator",
     "typescript",
-    "gulp",
     "tsconfig",
     "nodejs",
     "iojs"
