@@ -1,6 +1,6 @@
 {
   "name": "generator-nts",
-  "version": "0.5.3",
+  "version": "0.6.0",
   "description": "A minimal Yeoman Generator for creating NodeJS modules using TypeScript and including a minimal express server.",
   "license": "MIT",
   "main": "app/index.js",
