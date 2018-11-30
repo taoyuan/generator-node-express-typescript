@@ -9,7 +9,6 @@ I'm a minimal [Yeoman](http://yeoman.io) generator for creating NodeJS express s
 I use:
 
 - _npm_ - as task runner. You can choose to use _gulp_ instead.
-- _tslint_ - as linter for TypeScript source files.
 - _mocha_ - as testing framework to write specs in **TypeScript** itself.
 - _istanbul_ - a JavaScript code coverage tool working on TypeScript files.
 
@@ -71,7 +70,7 @@ available via `npm run-script`:
 - I use _mocha_ as testing framework as it allows easier test runs from command line. Also, one of the most important things regarding testing is **now you can write tests in TypeScript itself**. The out-of-box configuration includes use of [ts-node](https://github.com/TypeStrong/ts-node) as mocha compiler allowing executing specs written in TypeScript without compiling them first.
 - I need **no global dependencies**. Every dependency such as _TypeScript_ and _tslint_ is installed as local dev dependency allowing you to freely use different versions of these for different modules.
 - I provide test coverage support using _istanbul_.
-- I provide nice integration with [VS Code editor](https://code.visualstudio.com/). I configure `build`, `clean`, `lint`, `coverage` and `test` tasks that you can run using `Run Task` option.
+- I provide nice integration with [VS Code editor](https://code.visualstudio.com/). I configure `build`, `clean`, `coverage` and `test` tasks that you can run using `Run Task` option.
 
 ## License
 
