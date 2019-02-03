@@ -1,6 +1,6 @@
 {
   "name": "generator-nts",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "A minimal Yeoman Generator for creating NodeJS modules using TypeScript and including a minimal express server.",
   "license": "MIT",
   "main": "app/index.js",
@@ -31,9 +31,9 @@
     "iojs"
   ],
   "dependencies": {
-    "chalk": "2.4.1",
+    "chalk": "2.4.2",
     "lodash": "4.17.11",
-    "yeoman-generator": "^3.1.1",
+    "yeoman-generator": "^3.2.0",
     "yosay": "2.0.2"
   },
   "devDependencies": {
